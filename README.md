@@ -1,6 +1,6 @@
 # Template to generate html formatted email
 
-This project allows the automatic generation of html formatted emails using pandoc.
+This project allows the automatic generation of html formatted emails using [pandoc](http://pandoc.org).
 
 
 # Acknowledgements
