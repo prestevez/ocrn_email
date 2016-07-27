@@ -1,6 +1,5 @@
 ---
 base level header: 1  
-archiveurl:        http://www.prestevez.com/archive/  
 thisfilename:      JulySeminar.html  
 ---
 
