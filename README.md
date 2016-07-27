@@ -21,9 +21,9 @@ You may adapt this template for your purposes by making sure it does not mention
 To be sure that the generated html-email is stored in the archive, so that recipients may see it in a browser and not their email client, save the output file into the `archive/` directory and give it a `filename` that coincides with the one that needs to be present in the YAML metadata at the beginning of the markdown file:
 
 ```
----
-filename: JuneSeminar.html
----
+---  
+filename: JuneSeminar.html  
+---  
 ```
 
 
