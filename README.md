@@ -1,6 +1,6 @@
 # Template to generate html formatted email
 
-This project allows the automatic generation of html formatted emails using [pandoc](http://pandoc.org).
+This project allows the automatic generation of [UCL Organised Crime Research Network](http://blogs.ucl.ac.uk/organised-crime/) html-formatted emails using [pandoc](http://pandoc.org).
 
 To generate a new html email, write your content in markdown (see: `example.md`) and run the following code in your terminal:
 
@@ -8,11 +8,16 @@ To generate a new html email, write your content in markdown (see: `example.md`)
 $ pandoc example.md --template email_template.html -o example.html
 ```
 
+**Note that the use of this template is restricted to [UCL OCRN](http://blogs.ucl.ac.uk/organised-crime/) members of the steering committee for official email communications**.
+
+You may adapt this template for your purposes by making sure it does not mention or link to UCL and UCL OCRN content.
+
+
 # Send
 
 You need to send the email using a client that allows proper embedding of html.
 
-You can use [Thunderbird](https://www.mozilla.org/en-GB/thunderbird/) using the `Insert>HTML` option when composing the message, but be sure to **always** include the following image attribute in your markdown file:
+You can use [Thunderbird](https://www.mozilla.org/en-GB/thunderbird/) using the `Insert>HTML` option when composing the message, but be sure to **always** include the following image attribute (the bit between the curly brackets) in your markdown file:
 
 ```
 [image name](http://www.example.com/image.jpg){moz-do-not-send="true"}
