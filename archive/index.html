@@ -482,14 +482,11 @@
                                               <h1 id="template-to-generate-html-formatted-email">Template to generate html formatted email</h1>
                                               <p>This project allows the automatic generation of <a href="http://blogs.ucl.ac.uk/organised-crime/">UCL Organised Crime Research Network</a> html-formatted emails using <a href="http://pandoc.org">pandoc</a>.</p>
                                               <p>To generate a new html email, write your content in markdown (see: <code>example.md</code>) and run the following code in your terminal:</p>
-                                              <pre><code>$ pandoc example.md --template email_template.html -o archive/filename.html</code></pre>
+                                              <pre><code>$ pandoc drafts/example.md --template email_template.html -o archive/filename.html</code></pre>
                                               <p><strong>Note that the use of this template is restricted to <a href="http://blogs.ucl.ac.uk/organised-crime/">UCL OCRN</a> members of the steering committee for official email communications</strong>.</p>
                                               <p>You may adapt this template for your purposes by making sure it does not mention or link to UCL and UCL OCRN content.</p>
                                               <h2 id="archive">Archive</h2>
                                               <p>To be sure that the generated html-email is stored in the archive, so that recipients may see it in a browser and not their email client, save the output file into the <code>archive/</code> directory and give it a <code>filename</code> that coincides with the one that needs to be present in the YAML metadata at the beginning of the markdown file:</p>
-                                              <pre><code>---  
-                                              filename: JuneSeminar.html  
-                                              ---  </code></pre>
                                               <h1 id="send">Send</h1>
                                               <p>You need to send the email using a client that allows proper embedding of html.</p>
                                               <p>You can use <a href="https://www.mozilla.org/en-GB/thunderbird/">Thunderbird</a> using the <code>Insert&gt;HTML</code> option when composing the message, but be sure to <strong>always</strong> include the following image attribute (the bit between the curly brackets) in your markdown file:</p>
