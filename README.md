@@ -22,9 +22,8 @@ To be sure that the generated html-email is stored in the archive, so that recip
 
 ```
 ---
-filename:     JuneSeminar.html
+filename: JuneSeminar.html
 ---
-
 ```
 
 
