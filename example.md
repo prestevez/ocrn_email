@@ -1,5 +1,7 @@
 ---
-base level header: 1
+base level header: 1  
+archiveurl:        http://www.prestevez.com/archive/  
+thisfilename:      JulySeminar.html  
 ---
 
 # Using technology and intelligence to fight human trafficking
