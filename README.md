@@ -1,3 +1,7 @@
+---
+filename: index.html
+---
+
 # Template to generate html formatted email
 
 This project allows the automatic generation of [UCL Organised Crime Research Network](http://blogs.ucl.ac.uk/organised-crime/) html-formatted emails using [pandoc](http://pandoc.org).
