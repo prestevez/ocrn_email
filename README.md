@@ -9,7 +9,7 @@ This project allows the automatic generation of [UCL Organised Crime Research Ne
 To generate a new html email, write your content in markdown (see: `example.md`) and run the following code in your terminal:
 
 ```
-$ pandoc drafts/example.md --template email_template.html -o archive/filename.html
+$ pandoc example.md --template email_template.html -o filename.html
 ```
 
 **Note that the use of this template is restricted to [UCL OCRN](http://blogs.ucl.ac.uk/organised-crime/) members of the steering committee for official email communications**.
