@@ -22,7 +22,7 @@ To be sure that the generated html-email is stored in the archive, so that recip
 
 ## Example
 
-View an example [here](http://www.prestevez.com/ocrn_email/archive/JulySeminar.html).
+View an example [here](http://ocrn.crimescience.mx/archive/JulySeminar.html).
 
 # Send
 
